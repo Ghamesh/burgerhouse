@@ -1,0 +1,443 @@
+body{
+    margin:0;
+    padding:0;
+}
+*{
+    box-sizing:border-box;
+}
+html{
+    font-size:10px;
+}
+
+/* Banners starts */
+.icon{
+    width:80%;
+    margin:0 auto;
+    text-align:right;
+    position:relative;
+    top:2rem;
+    z-index:10;
+}
+.banner{
+    width:100%;
+    background-image:url(../Images/banner.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;  
+    background-color:red; 
+    height:600px;
+}
+#my-nav{
+    background:none;
+    border:none;
+}
+#my-nav a{
+    color:#000;
+    font-size:2rem;
+    position:relative;
+    top:rem;
+    
+}
+.navbar-brand img{
+    width:20rem;
+    position:absolute;
+    top:-10rem;  
+}
+#nav-tog{
+    background:none;
+    border:none;
+    margin-top:1rem;
+    cursor:pointer;
+    padding-right:1.5rem;
+}
+#my-navbar li{
+    padding-top:1.5rem;
+    
+}
+
+/*Banner content part*/
+
+.ban-cont{
+    margin-top:10rem;
+    z-index:20;
+
+}
+.ban-cont h5{
+    border: 4px dashed rgb(92, 23, 23);
+    padding:1rem;
+    font-size:1rem;
+    font-weight:bolder;
+    margin:0px;
+    display:inline;
+}
+.ban-cont h1{
+    font-weight:bolder;
+    text-shadow:3px 4px 3px #fff;
+    font-size:8rem;
+}
+.ban-cont h2{
+    font-weight:bolder;
+    text-shadow:3px 4px 3px #fff;
+    margin-top:0px;
+    font-size:5rem;
+}
+
+/* banner part end and three section part starts here*/
+
+.three-section{
+    padding:4rem 0rem;
+    
+}
+.three-section img{
+    border-radius:1rem;
+    width:100%;
+    margin-top:1rem;
+}
+
+.three-left{
+    position:absolute;
+    top:3rem;
+    color:#fff;
+    z-index:50;
+    padding-left:2rem;
+
+}
+.three-left h2 , .three-left h1{
+    font-size:2rem;
+    font-weight:bolder;
+    margin: 1rem 0 0 0;
+    
+}
+.three-bot{
+    margin-top:1.5rem;
+}
+
+.enjoy{
+    margin:3rem;
+    text-align:center;
+}
+.enjoy button{
+    background-color:rgb(238, 189, 73);
+    padding:1rem;
+   font-weight:bolder;
+   border:none;
+   margin: 1rem 0rem;
+}
+.enjoy h1{
+    font-weight:900;
+    font-size:4rem;
+}
+.enjoy p{
+    font-size:2rem;
+    width:70%;
+    margin:0 auto;
+}
+
+/* three burger part starts here*/
+
+.three-burger {
+    margin:2rem 0rem;
+    text-align:center;
+}
+
+.three-bg{
+    margin:2rem 0rem;
+   
+    padding:3rem 2rem;
+}
+.three-bg h1{
+    font-weight:200;
+}
+.three-bg img{
+    text-align:center;
+    width:100%;
+
+}
+.order-btn{
+    margin:1rem 0rem;
+    padding:1rem;
+}
+/*Event part */
+.event{
+    margin:7rem 0rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    
+}
+
+.event h1{
+    font-weight:900;
+    font-size:4rem;
+}
+.event h2{
+    font-weight:lighter;
+}
+.event p{
+    font-size:1.5rem;
+    line-height:3rem;
+    text-align:justify;
+}
+.event img{
+    margin-top:3rem;
+}
+/*Event part ends here*/
+/*Table bookin part start*/
+
+.form-part{
+    width:100%;
+    position:absolute;
+}
+.my-form input{
+    text-transform:uppercase;
+    width:100%;
+    padding:2rem 0.5rem;
+    
+
+}
+
+.table{
+    text-align:center;
+}
+.table h1{
+    font-weight:900;
+    font-size:5rem;
+}
+.table h2{
+    font-weight:lighter;
+}
+ .booking-btn{
+    width:100%;
+    margin:2.2rem 0rem;
+    padding:0.5rem 0rem;
+    font-size:2rem;
+
+}
+.form-part img{
+    width:100%;
+}
+.form-cont{
+    width:60%;
+   position:relative;
+}
+
+/*Footer part starts Here*/
+
+.footer-part{
+    background-color:#000;
+    position:relative;
+    top:15rem;
+    color:#fff;
+    padding:5rem 0rem;
+}
+.foot-cont{
+    padding:2rem 0rem;
+    font-size:1.5rem;
+    line-height:2rem;
+    
+}
+.email{
+    text-align:right;
+    font-size:2rem;
+}
+.footer{
+    margin-top:3rem;
+    font-size:2rem;
+}
+.footer p{
+    display:inline;
+}
+.footer .fa{
+    margin-right:3rem;
+    background-color:#fff;
+    color:#000;
+    padding:1.2rem;
+    border-radius:50%;
+}
+.soc{
+    text-align:right;
+}
+
+/*Media query starst Here*/
+
+@media only screen and (max-width:944px){
+    .table h1{
+        font-size:3rem;
+    }
+}
+
+@media only screen and (max-width:760px){
+    .banner{
+        height:auto;
+    }
+    #my-navbar ul li{
+        float:left;
+    }
+    .icon{
+        width:100%;
+        text-align:center;
+    }
+
+    .enjoy h1{
+        font-size:2rem;  
+
+    }
+
+    .enjoy button{
+        padding:0.5rem;
+        font-size:1rem;
+    }
+    .enjoy p{
+        font-size:1rem;
+    }
+    .three-burger{
+        text-align:center;
+        margin:2rem 0rem;
+        
+       
+    }
+    .footer-part p{
+        text-align:center;
+        font-size:1.5rem;
+    }
+    .footer-part img{
+        margin:0 auto;
+    }
+    .footer {
+        text-align:center;
+    }
+    .email{
+        margin-top:2rem;
+        font-size:1.5rem;
+    }
+    .soc{
+        text-align:center;
+        margin-top:1rem;
+    }
+}
+@media only screen and (max-width:660px){
+    .banner{
+        background-size:cover;
+        
+    }
+    .three-bg h1{
+        font-size:2rem;
+    }
+
+}
+@media only screen and (max-width:586px){
+    .table h1{
+        font-size:2rem;
+    }
+    .table h2{
+        font-size:2rem;
+    }
+}
+@media only screen and (max-width:500px){
+    .event h1{
+        font-size:3rem;
+    }
+}
+@media only screen and (max-width:440px){
+    .three-left h2 , .three-left h1{
+        font-size:1rem;
+        margin:0.5rem;
+    }
+    .table h1{
+        font-size:1.5rem;
+    }
+    .table h2{
+        font-size:1.5rem;
+    }
+
+}
+@media only screen and (max-width:391px){
+    .event h1{
+        font-size:2rem;
+    }
+    .event p{
+        font-size:1rem;
+        line-height:1.5rem;
+    }
+    .event h2{
+        font-size:2rem;
+    }
+    .logo{
+        width:40%;
+    }
+}
+
+
+@media only screen and (max-width:375px){
+    #my-navbar ul li{
+        float:none;
+    }
+    .navbar-brand img{
+        width:10rem;
+    }
+    .icon{
+        margin-bottom:2rem;
+    }
+    .ban-cont{
+        width:100%;
+        text-align:center;
+        z-index:200;
+        position:relative;
+       top:-3rem; 
+    }
+
+    .ban-cont h5{
+        font-size:1rem;
+        border:0;
+        
+        display:block;
+    }
+    .ban-cont h1{
+        font-size:5rem;
+    }
+    .ban-cont h2{
+        font-size:2rem;
+    }
+    .footer .fa{
+        margin-right:2rem;
+        
+    }
+   
+    .footer-part p{
+        font-size:1rem;
+    }
+    .icon{
+        font-size:1rem;
+    }
+    
+}
+@media only screen and (max-width:300px){
+    .three-left h2 , .three-left h1{
+        font-size:1rem;
+        margin:0.3rem;
+    }
+    .event h1{
+        font-size:1.5rem;
+    }
+    .event h2{
+        font-size:1.5rem;
+    }
+    .table h1{
+        font-size:1rem;
+    }
+    .table h2{
+        font-size:1rem;
+    }
+    .booking-btn{
+        font-size:1rem;
+    }
+    .footer .fa{
+        margin-right:1rem;
+    }
+    .navbar-brand img{
+        width:50%;
+        display:none;
+    }
+    .logo{
+        width:40%;
+    }
+
+}
+
